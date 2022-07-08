@@ -1,0 +1,25 @@
+$bg: #242526;
+$bg-accent: #484a4d;
+$text-color: #dadce1;
+$sidebar-size: 250px;
+$border: 1px solid #474a4d;
+$border-radius: 8px;
+$speed: 500ms; 
+
+
+.navbar {
+    width: 100;
+    align-items: center;    
+}
+
+.navbar-item {
+
+}
+
+.sidebar-container {
+    position: absolute;
+    right: 0;
+    width: $sidebar-size;
+    height: 100vh;
+    background-color: $bg-accent;
+}
