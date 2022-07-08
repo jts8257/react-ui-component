@@ -82,7 +82,6 @@ $speed: 500ms;
     border: $border;
     border-radius: $border-radius;
     padding: 1rem;
-    /* overflow: hidden 을 해줘서 스크롤링 하게끔 만듦. */
     overflow: hidden;
   
     transition: height $speed ease;
